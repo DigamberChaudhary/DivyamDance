@@ -1,0 +1,71 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+       ul
+          div.logo
+            img(src="/static/image/logo.png")
+            | DDA
+          li #[a(href="/") Home]
+          li #[a(href="/#introSection") About ]
+          li #[a(href="/#missionSection") Services]
+          li #[a(href="/#sponsorsSection") Class Info]
+          li #[a(href="/contact") Contact us]
+
+    section#introSection
+        Div Welcome To Divyam Dance Academy 
+        Div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+           h3 Dance Perfection
+            div.card-box 
+              div.card-img
+                img(src="/static/image/1.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+        div.card
+           h3 Dance the way you like
+            div.card-box 
+              div.card-img
+                img(src="/static/image/2.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+           
+        div.card
+           h3 Export Teaching
+            div.card-box 
+              div.card-img
+                img(src="/static/image/4.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+        div.card
+           h3 Friendly
+            div.card-box 
+              div.card-img
+                img(src="/static/image/5.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+    section#sponsorsSection
+      h2 Our Sponsors
+      div#sponsore
+        img(src="/static/image/logo1.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo2.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo3.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo4.png" alt="Sponsore" class="spImage")
+       
+    
+    footer#footer
+      |  CopyRight &copy 2021 DivyamDanceAcademy.com | All Rights Reserved
+
+
+    script
+    include ../static/index.js

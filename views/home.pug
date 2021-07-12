@@ -1,0 +1,56 @@
+//- page-a.pug
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block  style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        Div Welcome To Divyam Dance Academy 
+        Div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+           h3 Dance Perfection
+            div.card-box 
+              div.card-img
+                img(src="/static/image/1.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+        div.card
+           h3 Dance the way you like
+            div.card-box 
+              div.card-img
+                img(src="/static/image/2.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+           
+        div.card
+           h3 Export Teaching
+            div.card-box 
+              div.card-img
+                img(src="/static/image/4.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+        div.card
+           h3 Friendly
+            div.card-box 
+              div.card-img
+                img(src="/static/image/5.png")              
+              div.card-content
+                p This is the best dance academy of the Universe
+
+    section#sponsorsSection
+      h2 Our Sponsors
+      div#sponsore
+        img(src="/static/image/logo1.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo2.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo3.png" alt="Sponsore" class="spImage")
+        img(src="/static/image/logo4.png" alt="Sponsore" class="spImage")
+        
